@@ -21,6 +21,5 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: maven
     - name: Test with maven
-      run: mvn test
+      run: ./mvnw test
